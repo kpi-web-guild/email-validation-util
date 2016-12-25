@@ -1,6 +1,6 @@
-"""validate email module."""
+"""Validate email module."""
 
 
 def validate_email(email):
-    """email validation."""
+    """Email validation."""
     return True
