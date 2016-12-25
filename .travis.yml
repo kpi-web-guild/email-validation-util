@@ -6,4 +6,4 @@ cache: pip
 before_install: pip install -U nose pre-commit
 script:
 - nosetests -s -v
-
+-  pre-commit run --all-files
