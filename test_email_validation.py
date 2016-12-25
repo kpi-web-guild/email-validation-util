@@ -1,8 +1,8 @@
-import email_validation
+from email_validation import validate_email
 import unittest
 
 
 class EmailValidationTest(unittest.TestCase):
-    """unit test for EmailValidation"""
+    """Unit test for EmailValidation"""
     def test_validate_email(self):
-        self.assertTrue(email_validation.validate_email('123@123.com'))
+        self.assertTrue(validate_email('123@123.com'))
