@@ -4,7 +4,7 @@ import unittest
 
 
 class EmailValidationTest(unittest.TestCase):
-    """Unit test for EmailValidation."""
+    """Unit tests for email validation module."""
     def test_validate_email(self):
-        """Test by assertTrue method."""
+        """Check whether validate_email function behaves correctly."""
         self.assertTrue(validate_email('123@123.com'))
