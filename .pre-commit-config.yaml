@@ -13,7 +13,7 @@
     - id: name-tests-test
     - id: requirements-txt-fixer
 
-# -   repo: git://github.com/FalconSocial/pre-commit-mirrors-pep257
-#     sha: master
-#     hooks:
-#     -   id: pep257
+-   repo: git://github.com/FalconSocial/pre-commit-mirrors-pep257
+    sha: master
+    hooks:
+    -   id: pep257

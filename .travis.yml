@@ -4,6 +4,6 @@ python: 3.5
 cache: pip
 
 before_install: pip install -U nose pre-commit
-script: |
-  nosetests
-  pre-commit run --all-files
+script:
+- nosetests -s -v
+-  pre-commit run --all-files
